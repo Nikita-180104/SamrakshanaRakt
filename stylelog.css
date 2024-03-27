@@ -1,0 +1,81 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the content vertically center */
+}
+
+/* Styling for the Form Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 20px; /* Added margin for spacing */
+}
+
+/* Heading */
+.login-container h1 {
+    font-size: 24px;
+    color: #f44336;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input Fields Styling */
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/* Button Styling */
+.form-group button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #d32f2f;
+}
+
+/* Link Styling */
+.login-container p a {
+    color: #f44336;
+    text-decoration: none; /* Optional: removes underline */
+}
+
+.login-container p a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}

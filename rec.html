@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Donor/Receiver</title>
+    <link rel="stylesheet" href="new.css">
+    
+</head>
+<body>
+    <div class="content">
+        <!-- Location Selector -->
+        <div class="location-selector">
+            <label for="locationSelect">Select your location: </label>
+            <select id="locationSelect">
+                <option value="">--Please choose an option--</option>
+                <option value="chandigarh">Chandigarh</option>
+                <option value="panchkula">panchkula</option>
+            </select>
+        </div>
+        <!-- Toggle Switch -->
+        <div class="toggle-switch">
+            <span class="toggle-option">Donor</span>
+            <input type="checkbox" id="modeToggle" class="toggle-checkbox">
+            <label class="toggle-label" for="modeToggle">
+                <span class="toggle-inner"></span>
+                <span class="toggle-switch"></span>
+            </label>
+            <span class="toggle-option">Receiver</span>
+        </div>
+        <div id="donorView">
+            <H1>Donor</h1>
+            <ul id="donationCentersList">
+                
+            </ul>
+        </div>
+        <div id="receiverView" style="display:none;">
+            <a href="http://localhost:3000/">click</a>
+            <h1>Receiver</h1>
+            <div id="donorList">
+
+                <!-- Donor details will be listed here -->
+            </div>
+        </div>
+    </div>
+    <script src="scriptt.js"></script>
+    <script src="node.js"></script>
+</body>
+</html>

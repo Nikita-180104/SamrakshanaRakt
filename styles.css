@@ -1,0 +1,115 @@
+/* Reset some basic elements */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #b71c1c;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+section#home {
+    background: #e53935;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section#home h1 {
+    margin-bottom: 20px;
+}
+
+section#home p {
+    margin-bottom: 20px;
+}
+
+/* About Us and How to Donate Sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    padding-top: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Utility Classes */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Button Styling for Links */
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px; /* Adjust space between buttons */
+    background-color: #e53935; /* Button color */
+    color: #ffffff; /* Text color */
+    text-transform: uppercase; /* Capitalize text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.link-button:hover {
+    background-color: #b71c1c; /* Darker shade on hover */
+    color: #ffffff;
+    text-decoration: none; /* Ensure underline does not reappear on hover */
+}
